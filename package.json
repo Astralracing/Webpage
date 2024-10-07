@@ -1,0 +1,30 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "astral webpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "devStart":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Astralracing/Webpage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Astralracing/Webpage/issues"
+  },
+  "homepage": "https://github.com/Astralracing/Webpage#readme",
+  "keywords": [],
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "express-ejs-layouts": "^2.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
